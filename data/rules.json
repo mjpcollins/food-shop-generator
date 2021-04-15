@@ -1,0 +1,74 @@
+{
+  "rules": {
+    "monday": {
+      "breakfast_categories": ["veggie", "vegan", "fish"],
+      "brunch_categories": [],
+      "lunch_categories": ["veggie", "vegan", "fish"],
+      "dinner_categories": ["veggie", "vegan", "fish"],
+      "breakfast_speed": ["very_fast"],
+      "brunch_speed": [],
+      "lunch_speed": ["very_fast"],
+      "dinner_speed": ["very_fast", "fast, medium"]
+    },
+    "tuesday": {
+      "breakfast_categories": ["veggie", "vegan", "fish"],
+      "brunch_categories": [],
+      "lunch_categories": ["veggie", "vegan", "fish"],
+      "dinner_categories": ["veggie", "vegan", "fish"],
+      "breakfast_speed": ["very_fast"],
+      "brunch_speed": [],
+      "lunch_speed": ["very_fast"],
+      "dinner_speed": ["very_fast", "fast, medium"]
+    },
+    "wednesday": {
+      "breakfast_categories": ["veggie", "vegan", "fish"],
+      "brunch_categories": [],
+      "lunch_categories": ["veggie", "vegan", "fish"],
+      "dinner_categories": ["veggie", "vegan", "fish"],
+      "breakfast_speed": ["very_fast"],
+      "brunch_speed": [],
+      "lunch_speed": ["very_fast"],
+      "dinner_speed": ["very_fast", "fast, medium"]
+    },
+    "thursday": {
+      "breakfast_categories": ["veggie", "vegan", "fish"],
+      "brunch_categories": [],
+      "lunch_categories": ["veggie", "vegan", "fish"],
+      "dinner_categories": ["veggie", "vegan", "fish"],
+      "breakfast_speed": ["very_fast"],
+      "brunch_speed": [],
+      "lunch_speed": ["very_fast"],
+      "dinner_speed": ["very_fast", "fast, medium"]
+    },
+    "friday": {
+      "breakfast_categories": ["veggie", "vegan", "fish"],
+      "brunch_categories": [],
+      "lunch_categories": ["veggie", "vegan", "fish"],
+      "dinner_categories": ["veggie", "vegan", "fish"],
+      "breakfast_speed": ["very_fast"],
+      "brunch_speed": [],
+      "lunch_speed": ["very_fast"],
+      "dinner_speed": ["very_fast", "fast, medium"]
+    },
+    "saturday": {
+      "breakfast_categories": [],
+      "brunch_categories": ["veggie", "vegan", "fish", "meat"],
+      "lunch_categories": [],
+      "dinner_categories": ["fish"],
+      "breakfast_speed": [],
+      "brunch_speed": ["very_fast", "fast, medium", "slow"],
+      "lunch_speed": [],
+      "dinner_speed": ["very_fast", "fast, medium", "slow", "very_slow"]
+    },
+    "sunday": {
+      "breakfast_categories": [],
+      "brunch_categories": ["veggie", "vegan", "fish", "meat"],
+      "lunch_categories": [],
+      "dinner_categories": ["meat"],
+      "breakfast_speed": [],
+      "brunch_speed": ["very_fast", "fast, medium", "slow"],
+      "lunch_speed": [],
+      "dinner_speed": ["very_fast", "fast, medium", "slow", "very_slow"]
+    }
+  }
+}

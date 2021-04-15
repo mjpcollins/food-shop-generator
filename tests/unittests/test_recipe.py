@@ -7,10 +7,14 @@ class TestRecipe(TestCase):
     def setUp(self):
         self.r = Recipe(name="peanut_butter_toast",
                         meal="breakfast",
+                        category="veggie",
+                        speed="very_fast",
                         servings=1)
         self.r_with_ingredients = Recipe(name="peanut_butter_toast",
                                          meal="breakfast",
                                          servings=1,
+                                         category="veggie",
+                                         speed="very_fast",
                                          ingredients=[{"item":  "bread", "qty":  1, "unit":  "slice"},
                                                       {"item":  "peanut_butter", "qty":  1, "unit":  "tablespoon"},
                                                       {"item":  "banana", "qty":  1, "unit":  "amount"}])

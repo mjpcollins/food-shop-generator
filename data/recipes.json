@@ -3,6 +3,8 @@
   "breakfast": {
    "overnight_oats": {
     "servings": 8,
+    "category": "veggie",
+    "speed": "very_fast",
     "ingredients": [
      {
       "item": "oats",
@@ -18,6 +20,8 @@
    },
    "peanut_butter_toast": {
     "servings": 1,
+    "category": "veggie",
+    "speed": "very_fast",
     "ingredients": [
      {
       "item": "bread",
@@ -40,6 +44,8 @@
   "lunch": {
    "basic": {
     "servings": 1,
+    "category": "veggie",
+    "speed": "very_fast",
     "ingredients": [
      {
       "item": "salad",
@@ -67,6 +73,8 @@
   "dinner": {
    "mapo_tofu": {
     "servings": 1,
+    "category": "veggie",
+    "speed": "medium",
     "ingredients": [
      {
       "item": "tofu",
@@ -127,11 +135,13 @@
    },
    "roast_chicken": {
     "servings": 2,
+    "category": "meat",
+    "speed": "slow",
     "ingredients": [
      {
       "item": "chicken",
-      "qty": 1.6,
-      "unit": "kg"
+      "qty": 1,
+      "unit": "amount"
      },
      {
       "item": "potatoes",
@@ -152,6 +162,8 @@
    },
    "roast_pork": {
     "servings": 2,
+    "category": "meat",
+    "speed": "slow",
     "ingredients": [
      {
       "item": "pork_loin",
@@ -172,6 +184,48 @@
       "item": "broccoli",
       "qty": 300,
       "unit": "g"
+     }
+    ]
+   },
+   "tomato_and_marsc_risotto": {
+    "servings": 4,
+    "category": "veggie",
+    "speed": "fast",
+    "ingredients": [
+     {
+      "item": "risotto",
+      "qty": 200,
+      "unit": "g"
+     },
+     {
+      "item": "tomatoes",
+      "qty": 6,
+      "unit": "amount"
+     },
+     {
+      "item": "garlic_paste",
+      "qty": 1,
+      "unit": "teaspoon"
+     },
+     {
+      "item": "marscarpone",
+      "qty": 125,
+      "unit": "g"
+     },
+     {
+      "item": "chicken_stock_cubes",
+      "qty": 2,
+      "unit": "amount"
+     },
+     {
+      "item": "white_wine_vinegar",
+      "qty": 25,
+      "unit": "ml"
+     },
+     {
+      "item": "salad",
+      "qty": 2,
+      "unit": "handful"
      }
     ]
    }

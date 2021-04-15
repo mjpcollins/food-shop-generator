@@ -17,6 +17,7 @@ class TestSuiteLoader:
     def _add_tests(self):
         self._add_test_to_list_of_tests(TestData)
         self._add_test_to_list_of_tests(TestRecipe)
+        self._add_test_to_list_of_tests(TestPlan)
 
     def _add_test_to_list_of_tests(self, test_object):
         self.all_tests.append(self.test_loader.loadTestsFromTestCase(test_object))

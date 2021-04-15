@@ -3,10 +3,12 @@ from copy import deepcopy
 
 class Recipe:
 
-    def __init__(self, name, meal, servings, ingredients=None):
+    def __init__(self, name, meal, servings, category, speed, ingredients=None):
         self.name = name
         self.meal = meal
         self.servings = servings
+        self.category = category
+        self.speed = speed
         if ingredients:
             self._ingredients = ingredients
         else:

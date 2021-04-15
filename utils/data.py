@@ -16,6 +16,8 @@ class Data:
     def add_recipe(self, recipe):
         self._data["meal"][recipe.meal][recipe.name] = {
             "servings": recipe.servings,
+            "category": recipe.category,
+            "speed": recipe.speed,
             "ingredients": recipe.get_ingredients()
         }
 
@@ -25,4 +27,3 @@ class Data:
     def write(self):
         with open(self.filepath, 'w') as F:
             F.write(json.dumps(self._data, indent=1))
-

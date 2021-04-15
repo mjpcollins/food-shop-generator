@@ -1,0 +1,180 @@
+{
+ "meal": {
+  "breakfast": {
+   "overnight_oats": {
+    "servings": 8,
+    "ingredients": [
+     {
+      "item": "oats",
+      "qty": 800,
+      "unit": "g"
+     },
+     {
+      "item": "milk",
+      "qty": 700,
+      "unit": "ml"
+     }
+    ]
+   },
+   "peanut_butter_toast": {
+    "servings": 1,
+    "ingredients": [
+     {
+      "item": "bread",
+      "qty": 1,
+      "unit": "slice"
+     },
+     {
+      "item": "peanut_butter",
+      "qty": 1,
+      "unit": "tablespoon"
+     },
+     {
+      "item": "banana",
+      "qty": 1,
+      "unit": "amount"
+     }
+    ]
+   }
+  },
+  "lunch": {
+   "basic": {
+    "servings": 1,
+    "ingredients": [
+     {
+      "item": "salad",
+      "qty": 1,
+      "unit": "handful"
+     },
+     {
+      "item": "tomatoes",
+      "qty": 1,
+      "unit": "amount"
+     },
+     {
+      "item": "bread",
+      "qty": 2,
+      "unit": "slice"
+     },
+     {
+      "item": "cheese",
+      "qty": 125,
+      "unit": "g"
+     }
+    ]
+   }
+  },
+  "dinner": {
+   "mapo_tofu": {
+    "servings": 1,
+    "ingredients": [
+     {
+      "item": "tofu",
+      "qty": 140,
+      "unit": "g"
+     },
+     {
+      "item": "chilli_bean_paste",
+      "qty": 1,
+      "unit": "teaspoon"
+     },
+     {
+      "item": "fermented_black_beans",
+      "qty": 1,
+      "unit": "teaspoon"
+     },
+     {
+      "item": "ginger",
+      "qty": 0.5,
+      "unit": "teaspoon"
+     },
+     {
+      "item": "garlic",
+      "qty": 1,
+      "unit": "clove"
+     },
+     {
+      "item": "vegetable_stock",
+      "qty": 50,
+      "unit": "ml"
+     },
+     {
+      "item": "cornflour",
+      "qty": 0.25,
+      "unit": "teaspoon"
+     },
+     {
+      "item": "spring_onions",
+      "qty": 2,
+      "unit": "amount"
+     },
+     {
+      "item": "chilli_oil",
+      "qty": 1,
+      "unit": "teaspoon"
+     },
+     {
+      "item": "sichuan_peppercorns",
+      "qty": 3,
+      "unit": "amount"
+     },
+     {
+      "item": "vegetable_oil",
+      "qty": 1,
+      "unit": "tablespoon"
+     }
+    ]
+   },
+   "roast_chicken": {
+    "servings": 2,
+    "ingredients": [
+     {
+      "item": "chicken",
+      "qty": 1.6,
+      "unit": "kg"
+     },
+     {
+      "item": "potatoes",
+      "qty": 500,
+      "unit": "g"
+     },
+     {
+      "item": "carrots",
+      "qty": 300,
+      "unit": "g"
+     },
+     {
+      "item": "broccoli",
+      "qty": 300,
+      "unit": "g"
+     }
+    ]
+   },
+   "roast_pork": {
+    "servings": 2,
+    "ingredients": [
+     {
+      "item": "pork_loin",
+      "qty": 1,
+      "unit": "amount"
+     },
+     {
+      "item": "potatoes",
+      "qty": 500,
+      "unit": "g"
+     },
+     {
+      "item": "carrots",
+      "qty": 300,
+      "unit": "g"
+     },
+     {
+      "item": "broccoli",
+      "qty": 300,
+      "unit": "g"
+     }
+    ]
+   }
+  }
+ }
+}
